@@ -12,4 +12,5 @@ doubleSmall x = if x>10
                 then x
                 else x*2
 
+doubleSmall' :: (Ord a, Num a) => a -> a
 doubleSmall' x = (if x>10 then x else x*2) + 1
