@@ -30,3 +30,4 @@ safetail [] = []
 safetail (_:xs) = xs
 safetail_:: [a] -> [a]
 safetail_ xs = if null xs then [] else tail xs
+
